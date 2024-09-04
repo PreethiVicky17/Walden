@@ -17,6 +17,7 @@ public class TEstng {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		System.out.println("welcome");
+		driver.get("www.google.com");
 	}
 
 }
